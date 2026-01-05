@@ -1,0 +1,37 @@
+1.
+wsl --install
+
+2.
+reinicio
+
+3.
+wsl.exe --install Ubuntu
+Antes de finalizar esta te va apedri qe crees tu usuario y contraseña, no te preocupes si no se ve, igual se está escribiendo, posteriormente te pedirá que repitas la contrseña
+pablo_winux
+coderwinux
+
+4.SUDO APT UPDATE Y SUDO APT UPGRADE -y
+
+git v2.43
+
+usuario 
+mail :pablorio@winux
+
+sudo add-apt-repository ppa:git-core/ppa -y
+sudo apt update
+sudo apt upgrade git -y
+git --versión
+
+v2.52
+
+p/iniciar, escribir wsl
+
+a explorar:
+integración con vscode
+docusaurus (incluyendo mi proyecto)
+
+
+cuando la ruta es muy larga usar comillas. ej: 
+ cd "/mnt/c/Users/Usuario/OneDrive/Desktop/Estudio/P
+rogramación/Exploración personal/WSL
+-bash: cd: too many arguments"
