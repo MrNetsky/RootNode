@@ -10,8 +10,7 @@ on:
 jobs:
   # Nombre del Job
   build:
-    name:
-      Build Docusaurus
+    name: Build Docusaurus
       # Máquina virtual que usará GitHub para ejecutar el trabajo.
     runs-on: ubuntu-latest
 

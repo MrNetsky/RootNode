@@ -1,0 +1,8 @@
+{
+  "label": "Tutoriales",
+  "position": 11,
+  "link": {
+    "type": "generated-index",
+    "description": "Configuraciones y funcionamiento en gral."
+  }
+}
