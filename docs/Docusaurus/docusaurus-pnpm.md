@@ -1,10 +1,6 @@
 # Instalación de Docusaurus con pnpm
 
-<u>**Pasos a seguir:**</u>
 
-1. Instalación de pnpm
-2. Instalación de Docusaurus
-3. Host en Github Pages
 
 ## Instalación de pnpm
 
@@ -26,8 +22,7 @@ Para verificar que lo hemos hecho bien, verificamos la versión.
 ```bash
 pnpm --version
 ```
-
-# Instalación de Docusaurus
+## Instalación de Docusaurus
 
 Yo lo crearé en una carpeta en particular, por lo que me dirigiré a ella y escribiré lo siguiente:
 

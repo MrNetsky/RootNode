@@ -112,7 +112,7 @@ const config: Config = {
           items: [
             {
               label: 'LinkedIn',
-              href: 'https://www.linkedin.com/pablo-acosta-cuestas-88426828a/',
+              href: 'https://www.linkedin.com/in/pablo-ac97/',
             },
             {
               label: 'Discord',
