@@ -1,32 +1,16 @@
 ---
+id: instalacion-git
+title: "Instalación de git"
+sidebar_label: "git"
 sidebar_position: 2
+description: Instalación y solución de problemas.
+tags:
+  - linux
+  - lazyvim
+  - neovim
+  - wsl
+keywords: [neovim, lazyvim, linux mint]
 ---
-# WSL: La ventana de Windows hacia Linux
-
-**Contenidos:**
-+ ¿Qué es WSL?
-+ ¿Cómo se configura?
-+ Instalaciones iniciales
-
-## Instalación inicial
-Primero es necesario instalar el sofware. Posteriormente reiniciaremos el equipo
-
-```bash
-wsl --install
-```
-
-Ya teniendo el entorno donde funcionará el S.O., deberemos instalarlo, yo elegí Ubuntu, ya que recién me estoy introduciendo al mundo Linux y en mi laptop estoy usando un Linux Mint en su versión Mate, que posee un funcionamiento similar.
-
-```bash
-wsl.exe --install Ubuntu
-```
-Antes de finalizar la instalación, te pedirá que crees tu usuario y contrasaña.
-
-Para usar wsl, simplemente tenemos que escribir en la terminal wsl y empezará a funcionar con el SO que tengamos instalada. En caso de que hayas instalado 2 o más funcionará con la versión que esté por default.
-
-## Configuraciones adicionales:
-
-Software que no es obligatorio pero que yo necesito.
 
 ### GIT 
 
@@ -63,31 +47,3 @@ Listo, pero... ¿Realmente lo está? Pese a que funcionaba todo en mi pc lo que 
     1. No puede JAAAAAAAAAAAAAAA
     2. Sé que se puede, pero no supe/no pude. Por lo que recaí en la opción 3
     3. Reinstalar GIT en la pc, descargar el ejecutable e instalar. Posterior a eso todas las carpetas ajenas a wsl funcionan con git.
-
-
-
-<!-- ### Docusaurus
-
-´´´bash
-sudo apt install ca-certificates curl gnupg
-´´´
-
-´´´bash
-sudo apt install nodejs
-´´´
-verificar versiones de npm y node
-´´´bash
-
-´´´
-
-
-clonar mi repo
-´´´bash
-
-´´´
- en la carpeta del repo
-
-´´´bash
-npm install
-´´´
-npm start -->

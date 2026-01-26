@@ -1,11 +1,18 @@
 ---
+id: instalacion-neovim
+title: "Instalación de NeoVim"
+sidebar_label: "NeoVim"
 sidebar_position: 2
+description: Guía para instalar versiones recientes de NeoVim en Linux Mint.
+tags:
+  - linux
+  - neovim
+  - lazyvim
+keywords: [instalar neovim]
 ---
 
-# Instalación de NeoVim
-
 :::tip NOTA 
-Es importante tener una versión a 0.11.2 o posterior. 
+Para la instalación de lazyvim es importante tener una versión a 0.11.2 o posterior. 
 :::
 
 ```bash

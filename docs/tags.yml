@@ -1,0 +1,42 @@
+# --- Ecosistema Linux & Terminal ---
+linux:
+  label: "Linux Mint & SysAdmin"
+  description: "Configuración, mantenimiento y optimización de entornos basados en Linux (Mint Mate)."
+  permalink: /linux-sysadmin
+
+wsl:
+  label: "WSL (Windows Subsystem for Linux)"
+  description: "Integración de entornos Linux dentro de Windows para desarrollo híbrido."
+  permalink: /wsl-setup
+
+lazyvim:
+  label: "LazyVim & Neovim"
+  description: "Flujos de trabajo eficientes en la terminal utilizando arquitecturas modernas de Vim."
+  permalink: /lazyvim-docs
+
+# --- Desarrollo de Software ---
+python:
+  label: "Python Development"
+  description: "Automatización, scripting y lógica de programación con Python."
+  permalink: /python-dev
+
+frontend:
+  label: "Diseño & Web Modern"
+  description: "Creación de interfaces usando HTML5, CSS3 y JavaScript (ES6+)."
+  permalink: /web-design
+
+docusaurus:
+  label: "Docusaurus Framework"
+  description: "Configuración, arquitectura y personalización de sitios estáticos basados en React para documentación técnica."
+  permalink: /docusaurus-config
+
+# --- Hardware & Redes ---
+meshtastic:
+  label: "Meshtastic & LoRa"
+  description: "Documentación sobre redes de radio malladas descentralizadas y hardware off-grid."
+  permalink: /meshtastic-networks
+
+ps2-modding:
+  label: "PS2 Legacy & OPL"
+  description: "Preservación de hardware y carga de backups mediante Open PS2 Loader y protocolos de red."
+  permalink: /retro-ps2

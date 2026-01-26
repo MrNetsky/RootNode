@@ -1,12 +1,22 @@
 ---
+id: instalacion-lazygit
+title: "Instalación de lazygit"
+sidebar_label: "lazygit"
 sidebar_position: 9
+description: Instalación y solución de errores.
+tags:
+  - linux
+  - lazyvim
+  - neovim
+  - wsl
+keywords: [neovim, lazyvim, linux mint]
 ---
-
-# Instalación de lazygit
 
 :::tip NOTA
 Esta instalación es OPCIONAL
 :::
+
+## Instalación
 
 :::danger IMPORTANTE
 Puede ser utilizardo incluso sin instalar LazyVim y todos sus complementos, en un futuro aquí se linkeará un tutorial de uso de LazyGit. Pero lo que si recomendaría, es que si usted NO sabe usar git, aprenda a utilizarlo y posteriormente se interiorice en el funcionamiento de esta herramienta.
@@ -32,6 +42,8 @@ Elimina el archivo descargado.
 ```bash
 rm lazygit.tar.gz lazygit
 ```
+
+## Solución de errores
 
 Puede que después de todo esto cuando verifiquemos la versión nos dé el siguiente error: 
 

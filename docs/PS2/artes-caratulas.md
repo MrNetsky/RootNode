@@ -1,12 +1,17 @@
 ---
-sidebar_position: 4
+id: artes-caratulas
+title: "Gestión de Artes y Carátulas"
+sidebar_label: "Artes y carátulas para OPL"
+sidebar_position: 6
+description: Obtención y uso de herramientas para dicha gestión.
+tags:
+  - ps2
+  - retro
+keywords: [ps2, OPL]
 ---
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-
-# Gestión de Artes y Carátulas
 
 :::warning
 Este paso es opcional, si llegaste hasta el paso anterior, podrás disfrutar de tus juegos sin ningún problema, pero si querés mejorar tu experiencia de usuario, te sugiero que hagas lo siguiente.

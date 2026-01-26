@@ -1,19 +1,24 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+python:
+  label: "Python Development"
+  description: "Mis notas y snippets sobre scripting, automatización y lógica en Python."
+  permalink: /python
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+linux:
+  label: "Linux Mint & SysAdmin"
+  description: "Configuraciones, comandos y tips para Linux Mint y administración de sistemas."
+  permalink: /linux
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+ps2-modding:
+  label: "PS2 & OPL"
+  description: "Guías sobre ejecución de juegos vía red (SMB) y uso de Open PS2 Loader."
+  permalink: /ps2
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+meshtastic:
+  label: "Redes Meshtastic"
+  description: "Explorando la comunicación off-grid mediante nodos LoRa."
+  permalink: /meshtastic
+
+lazyvim:
+  label: "Configuración de LazyVim"
+  description: "Instalación y tips de funcionamiento"
+  permalink: /vim

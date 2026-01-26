@@ -1,12 +1,19 @@
 ---
+id: roms
+title: "Obtención de una ROM"
+sidebar_label: "Juegos"
 sidebar_position: 1
+description: Descargas de ROMs de PS1 y PS2
+tags:
+  - ps2
+  - retro
+keywords: [ps2, OPL]
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl'; // 
 
-# Obtención de una ROM
 Puedes hacerlo desde alguna página dedicada o bien convertir tus juegos físicos, para poder usarlos desde un pendrive. 
 
 <Tabs>

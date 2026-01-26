@@ -1,12 +1,18 @@
 ---
-sidebar_position: 2
+id: roms-ps2-usb
+title: "Cargar juegos PS2 a un USB"
+sidebar_label: "Juegos de PS2"
+sidebar_position: 4
+description: Grabar juegos de PS2 para OPL 
+tags:
+  - ps2
+  - retro
+keywords: [ps2, OPL]
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-
-# Grabar juegos
 
 Tengo entendido que las ISOs menores a 4Gb no es necesario grabarlas con un programa en específico, copiando y pegando las ISOs en los lugares correspondientes, funcionarán; siendo menos de 700Mb en la carpeta CD y superando esta cantidad, pero siendo menos de 4Gb en la carpeta DVD. Esta limitación es debido al formato FAT32.  
 

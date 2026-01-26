@@ -1,5 +1,13 @@
 ---
-sidebar_position: 5
+id: guardado-alternativo
+title: "Configuración de una VMC"
+sidebar_label: "Guardar partida en USB"
+sidebar_position: 7
+description: Configuración y uso de la unidad USB como Memory Card alternativa.
+tags:
+  - ps2
+  - retro
+keywords: [ps2, OPL]
 ---
 
 # Guardar partidas dentro de USB 

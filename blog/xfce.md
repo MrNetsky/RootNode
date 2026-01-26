@@ -2,18 +2,18 @@
 slug: xfce
 title: Mi frustración con Linux Mint Xfce
 authors: [MrNetsky]
-tags: [Linux]
+tags: [linux]
 ---
 
 Empezaré comentando que no soy un experto en linux. Pero yo elegí a Linux Mint como mi primera distro, particularmente a su versión Xfce, pero no pude instalarla. Para ser mas exáctos si pude, pero se reiniciaba solo después de aproximadamente 2 minutos o menos, un verdadero infierno. Intenté reinstalar, pero no podía completar la instalación, luego probé con otras distros, como *Zorin OS Lite* o *Lubuntu*, pero mismo fallo. Probé con otros pendrives, con otras apps para flashear la imágen, pero nada cambiaba, era frustrante.
 
 **¿Por qué persistir?**
 
-En parte por que lo quería, en parte porque lo necesitaba, ya que tengo una HP 520 del 2008, con un Intel Celeron M 520 de 1.60GHz con un núcleo, 4Gb de RAM DDR2, un SSD 256Gb y Windows 7. Necesitaba que la computadora fuera funcional para que yo pudiera trabajar. Pero no me rendí y logré instalar Linux Mint, pero en su versión Mate, la compu era funcional y me sirvió para trabajar, pero yo no estaba conforme.
+En parte por que lo quería, en parte porque lo necesitaba, ya que tengo una HP 520 del 2008, con un Intel Celeron M 520 de 1.60GHz con un núcleo, 4Gb de RAM DDR2, un SSD 256Gb y *Windows 7*. Necesitaba que la computadora fuera funcional para que yo pudiera trabajar. Pero no me rendí y logré instalar Linux Mint, pero en su versión *Mate*, la compu era funcional y me sirvió para trabajar, pero yo no estaba conforme.
 
-Con el tiempo pude comprarme un nuevo equipo, una Lenovo T470s usada, con 256Gb nVME, 16Gb de RAM y un i5 de 7ma generación, a la cual le instalé Linux Mint, pero en su versión Cinnamon. En comparación, una bestia y aún así, yo no seguía conforme.
+Con el tiempo pude comprarme un nuevo equipo, una Lenovo T470s usada, con 256Gb nVME, 16Gb de RAM y un i5 de 7ma generación, a la cual le instalé Linux Mint, pero en su versión *Cinnamon*. En comparación, una bestia y aún así, yo no seguía conforme.
 
-Luego mi pareja me pidió que intentase arreglar su computadora, ya que los 3 técnicos que la vieron, llegaron al mismo resultado, se había quemado la placa en un subidon de tensión, pero a mi ese diagnóstico no me convencía. No especificaban cual placa y la pc andaba bien con Windows 10, simplemente era muy lenta. Yo me propuse arreglarla y ustedes se preguntarán qué conocimientos tenía en la materia para contradecir 3 "profecionales". La respuesta es sencilla y corta. Ninguno.
+Luego mi pareja me pidió que intentase arreglar su computadora, ya que los 3 técnicos que la vieron, llegaron al mismo resultado, se había quemado la placa en un subidon de tensión, pero a mi ese diagnóstico no me convencía. No especificaban cual placa y la pc andaba bien con *Windows 10*, simplemente era muy lenta. Yo me propuse arreglarla y ustedes se preguntarán qué conocimientos tenía en la materia para contradecir 3 "profecionales". La respuesta es sencilla y corta. Ninguno.
 
 No obstante cuando la abrí dí con el que para mi era el problema, una notebook del 2016, con dicho sistema operativo en un HDD de 1Tb, para mi el chiste se contaba sólo. Solo quedaba una cosa por hacer, cambiar el HDD de 1Tb por un SSD de 128Gb que tenía. Estaba ante mi la revancha, mi posibilidad de instalar esta vez Linux Mint Xfce, este era un equipo mas nuevo, es una Lenovo Ideapad 320-15IAP, con un Intel Celeron N3350 (2 núcleos, con frecuencia de hasta 2.40 GHz), 4Gb de RAM DDR3 y el ya mencionado SSD de 128Gb, nada podía salir mal. Pero no pude, nuevamente los fallos del pasado se hacían presente. No me rendí, aunque no pude instalar ningún sistema operativo. 
 

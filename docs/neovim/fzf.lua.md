@@ -1,8 +1,16 @@
 ---
+id: instalacion-fzf-lua
+title: "Instalación de fzf-lua"
+sidebar_label: "fzf-lua"
 sidebar_position: 8
+description: Descarga y configuración.
+tags:
+  - linux
+  - lazyvim
+  - neovim
+  - wsl
+keywords: [neovim, lazyvim, linux mint]
 ---
-
-# Instalación de fzf-lua
 
 :::tip NOTA
 Esta instalación es OPCIONAL

@@ -35,3 +35,33 @@ cuando la ruta es muy larga usar comillas. ej:
  cd "/mnt/c/Users/Usuario/OneDrive/Desktop/Estudio/P
 rogramación/Exploración personal/WSL
 -bash: cd: too many arguments"
+
+
+
+
+
+<!-- ### Docusaurus
+
+´´´bash
+sudo apt install ca-certificates curl gnupg
+´´´
+
+´´´bash
+sudo apt install nodejs
+´´´
+verificar versiones de npm y node
+´´´bash
+
+´´´
+
+
+clonar mi repo
+´´´bash
+
+´´´
+ en la carpeta del repo
+
+´´´bash
+npm install
+´´´
+npm start -->

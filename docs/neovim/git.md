@@ -1,9 +1,19 @@
 ---
+id: instalacion-git
+title: "Instalación git"
+sidebar_label: "git"
 sidebar_position: 3
+description: Instalación de git para distribuciones Linux con paquetería apt
+tags:
+  - linux
+  - lazyvim
+  - neovim
+  - wsl
+keywords: [neovim, lazyvim, linux mint]
 ---
-
-# Instalación git
-
+:::tip nota
+Esta instalación suele ser innecesaria, ya que para la mayoría de sistemas Linux, viene instalado. Pero sino, el proceso es el siguiente
+:::
 Escribimos en la terminal:
 ```bash
 sudo apt install git

@@ -1,7 +1,16 @@
 ---
+id: configuracion-lazyvim
+title: "Configuraciones"
+sidebar_label: "Configuraciones"
 sidebar_position: 1
+description: Configuraciones custom y soluciones de problemas.
+tags:
+  - linux
+  - lazyvim
+  - neovim
+  - wsl
+keywords: [neovim, lazyvim, linux mint]
 ---
-# Configuraciones
 
 :::info INFORMACIÓN
 Este documento se encontrará en constante actualización.

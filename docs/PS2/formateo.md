@@ -1,5 +1,13 @@
 ---
-sidebar_position: 3
+id: formateo
+title: "Formateo de unidad USB para grabar juegos"
+sidebar_label: "Formateo"
+sidebar_position: 2
+description: Proceso de formateo a traves de diferentes herramientas y SO.
+tags:
+  - ps2
+  - retro
+keywords: [ps2, OPL]
 ---
 
 import Tabs from '@theme/Tabs';

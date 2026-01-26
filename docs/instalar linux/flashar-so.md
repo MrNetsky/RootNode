@@ -1,11 +1,22 @@
+---
+id: flashear-iso-ventoy
+title: Flashear una imagen ISO con Ventoy
+sidebar_label: Ventoy (Crear USB Booteable)
+description: Guía paso a paso para crear unidades USB multiso utilizando Ventoy en entornos Linux y Windows.
+tags:
+  - linux
+  - windows
+  - sysadmin
+keywords: [ventoy, iso, usb booteable, linux mint, flashear iso]
+---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import useBaseUrl from '@docusaurus/useBaseUrl'; // <--- Importante añadir esto
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Flashear una imagen ISO
-<!-- Ventoy -->
 
-Existen una gran variedad de aplicaciones que pueden llevar a cabo este trabajo, yo sin embargo elegí Ventoy. ¿Por qué? Porque esta disponible en Windows y en Linux. Además te permite tener más de una imagen ISO en un mismo pendrive. 
+Existen una gran variedad de aplicaciones que pueden llevar a cabo este trabajo, yo sin embargo elegí ***Ventoy***. ¿Por qué? Porque esta disponible en Windows y en Linux. Además te permite tener más de una imagen ISO en un mismo pendrive. 
 
 Para poder usar esta herramienta, primero hay que descargarla, desde esta [<u>página</u>](https://www.ventoy.net/en/download.html).
 <Tabs>

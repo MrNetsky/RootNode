@@ -1,8 +1,16 @@
 ---
-sidebar_position: 2
+id: comandos-lazyvim
+title: "Comandos necesarios/útiles"
+sidebar_label: "Comandos"
+sidebar_position: 1
+description: Comandos útiles y atajos que aprendí.
+tags:
+  - linux
+  - lazyvim
+  - neovim
+  - wsl
+keywords: [neovim, lazyvim, linux mint]
 ---
-
-# Comandos útiles
 
 :::info INFORMACIÓN
 Este documento se encontrará en constante actualización.

@@ -1,8 +1,17 @@
 ---
+id: instalacion-nerdfonts
+title: "Configuración de NerdFonts"
+sidebar_label: "NerdFonts"
 sidebar_position: 4
+description: Descarga y configuración de una NerdFont
+tags:
+  - linux
+  - lazyvim
+  - neovim
+  - wsl
+keywords: [neovim, lazyvim, linux mint]
 ---
-
-# Instalación de una NerdFont
+El proceso consta de dos pasos pasos:
 
 ## Descarga
 Lo primero es es ir al repositorio en [GitHub](https://github.com/ryanoasis/nerd-fonts 'NerdFont en GitHub') y descargar la NerdFont deseada.

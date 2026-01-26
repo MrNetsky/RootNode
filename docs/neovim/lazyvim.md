@@ -1,9 +1,18 @@
 ---
+id: instalacion-lazyvim
+title: "Instalación de lazyvim"
+sidebar_label: "lazyvim"
 sidebar_position: 10
+description: Instalación y primer arranque.
+tags:
+  - linux
+  - lazyvim
+  - neovim
+  - wsl
+keywords: [neovim, lazyvim, linux mint]
 ---
 
-# Instalación de lazyvim
-Hacer una copia de seguridad de mis archivos actuales de NeoVim. Vease que los 3 que están separados, NO son obligatorios, pero si recomendables.
+Hacer una copia de seguridad de mis archivos actuales de NeoVim. Vease que los 3 que están separados, NO son obligatorios, pero si recomendables en caso de que ya hayas usado NeoVim con anterioridad y quieras guardar tus configuraciones antíguas. Si unicamente has instalado NeoVim para usar LazyVim, no es necesario que hagas esto, dado que, no hay nada que guardar.
 ```bash
 mv ~/.config/nvim{,.bak}
 

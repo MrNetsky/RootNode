@@ -1,8 +1,16 @@
 ---
+id: introduccion-lazyvim
+title: "NeoVim y LazyVim: De la necesidad a la productividad"
+sidebar_label: "NeoVim & LazyVim (Intro)"
 sidebar_position: 1
+description: Mi transición de VSCode a LazyVim para optimizar recursos en hardware limitado.
+tags:
+  - linux
+  - lazyvim
+  - neovim
+  - wsl
+keywords: [neovim, lazyvim, linux mint]
 ---
-
-# NeoVim y LazyVim
 
 Mi motivación en aprender a usar esta herramienta surge desde la necesidad de utilizar una notebook vieja. Debido a sus limitaciones, pese a que puedo instalar y utilizar VSCode, no es práctico, por su extrema lentitud, obviamente por las limitaciones propias de este hardware.
 

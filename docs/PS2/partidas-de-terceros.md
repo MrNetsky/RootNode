@@ -1,5 +1,13 @@
 ---
-sidebar_position: 6
+id: partidas-terceros
+title: "Cargar una partida de un tercero a la Memory Card"
+sidebar_label: "Partidas de terceros"
+sidebar_position: 8
+description: Obtención y configuración de una partida ajena en tu PS2.
+tags:
+  - ps2
+  - retro
+keywords: [ps2, OPL]
 ---
 
 # Subir partidas de terceros
