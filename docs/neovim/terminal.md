@@ -7,7 +7,6 @@ description: Elección e instalación de una nueva terminal.
 tags:
   - linux
   - lazyvim
-  - neovim
   - wsl
 keywords: [neovim, lazyvim, linux mint]
 ---

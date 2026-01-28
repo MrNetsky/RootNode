@@ -5,8 +5,7 @@ sidebar_label: "Partidas de terceros"
 sidebar_position: 8
 description: Obtención y configuración de una partida ajena en tu PS2.
 tags:
-  - ps2
-  - retro
+  - ps2-modding
 keywords: [ps2, OPL]
 ---
 

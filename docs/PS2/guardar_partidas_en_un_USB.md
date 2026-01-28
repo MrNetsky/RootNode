@@ -5,8 +5,7 @@ sidebar_label: "Guardar partida en USB"
 sidebar_position: 7
 description: Configuración y uso de la unidad USB como Memory Card alternativa.
 tags:
-  - ps2
-  - retro
+  - ps2-modding
 keywords: [ps2, OPL]
 ---
 

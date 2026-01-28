@@ -7,7 +7,6 @@ description: Instalación y primer arranque.
 tags:
   - linux
   - lazyvim
-  - neovim
   - wsl
 keywords: [neovim, lazyvim, linux mint]
 ---

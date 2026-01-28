@@ -5,8 +5,7 @@ sidebar_label: "Juegos"
 sidebar_position: 1
 description: Descargas de ROMs de PS1 y PS2
 tags:
-  - ps2
-  - retro
+  - ps2-modding
 keywords: [ps2, OPL]
 ---
 

@@ -11,7 +11,6 @@ tags:
   - wsl
 keywords: [neovim, lazyvim, linux mint]
 ---
-# 
 
 **Contenidos:**
 + ¿Qué es WSL?

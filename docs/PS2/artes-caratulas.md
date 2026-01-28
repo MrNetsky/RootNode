@@ -5,8 +5,7 @@ sidebar_label: "Artes y carátulas para OPL"
 sidebar_position: 6
 description: Obtención y uso de herramientas para dicha gestión.
 tags:
-  - ps2
-  - retro
+  - ps2-modding
 keywords: [ps2, OPL]
 ---
 import Tabs from '@theme/Tabs';

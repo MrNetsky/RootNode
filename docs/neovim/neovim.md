@@ -6,7 +6,6 @@ sidebar_position: 2
 description: Guía para instalar versiones recientes de NeoVim en Linux Mint.
 tags:
   - linux
-  - neovim
   - lazyvim
 keywords: [instalar neovim]
 ---

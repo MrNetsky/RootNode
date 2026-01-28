@@ -7,7 +7,6 @@ description: Instalación de git para distribuciones Linux con paquetería apt
 tags:
   - linux
   - lazyvim
-  - neovim
   - wsl
 keywords: [neovim, lazyvim, linux mint]
 ---

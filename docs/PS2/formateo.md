@@ -5,8 +5,7 @@ sidebar_label: "Formateo"
 sidebar_position: 2
 description: Proceso de formateo a traves de diferentes herramientas y SO.
 tags:
-  - ps2
-  - retro
+  - ps2-modding
 keywords: [ps2, OPL]
 ---
 

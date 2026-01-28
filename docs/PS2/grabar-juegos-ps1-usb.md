@@ -5,8 +5,7 @@ sidebar_label: "Juegos de PS1"
 sidebar_position: 3
 description: Grabar juegos de PS1 para OPL 
 tags:
-  - ps2
-  - retro
+  - ps2-modding
 keywords: [ps2, OPL]
 ---
 

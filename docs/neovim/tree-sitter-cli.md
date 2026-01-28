@@ -7,7 +7,6 @@ description: Descarga y configuración
 tags:
   - linux
   - lazyvim
-  - neovim
   - wsl
 keywords: [neovim, lazyvim, linux mint]
 ---

@@ -1,0 +1,7 @@
+<!-- 
+Notese la diferencia entre uno y otro. El 1ro da error, porque cuando trabajas en React, no podes escribir HTML crudo y CSS como lo harías en un archivo HTML normal. La propiedad style espera un objeto de JS donde las propiedades CSS se escriben en formato camelCase y los valores son strings o números.
+
+<div style="margin-left: auto; margin-right: auto; width: fit-content;">
+-->
+
+Tabla de compras 12/25

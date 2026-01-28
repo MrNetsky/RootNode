@@ -5,8 +5,7 @@ sidebar_label: "Juegos de PS2"
 sidebar_position: 4
 description: Grabar juegos de PS2 para OPL 
 tags:
-  - ps2
-  - retro
+  - ps2-modding
 keywords: [ps2, OPL]
 ---
 

@@ -7,7 +7,6 @@ description: Mi transición de VSCode a LazyVim para optimizar recursos en hardw
 tags:
   - linux
   - lazyvim
-  - neovim
   - wsl
 keywords: [neovim, lazyvim, linux mint]
 ---

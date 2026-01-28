@@ -48,6 +48,8 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
+          //Esta opción de abajo, permite ver TODOS los blog y no solo una cantidad específica
+          blogSidebarCount: 'ALL', 
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
