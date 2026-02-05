@@ -15,6 +15,11 @@ lazyvim:
   permalink: /lazyvim-docs
 
 # --- Desarrollo de Software ---
+git:
+  label: "Git & Version Control"
+  description: "Gestión de versiones, flujos de trabajo (workflows) y administración de repositorios para el desarrollo colaborativo."
+  permalink: /git-vcs
+
 python:
   label: "Python Development"
   description: "Automatización, scripting y lógica de programación con Python."
