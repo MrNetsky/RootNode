@@ -1,41 +1,45 @@
-# Website
+# 🖥️ RootNode
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Sitio web personal de Pablo Acosta Cuestas. Este proyecto representa mi espacio en la web, un lugar donde comparto ideas, documentación, recursos y proyectos relacionados con tecnología y desarrollo. Blogueando mis experiencias triunfales, así como mis frustraciones.
 
-## Installation
+## 🚀 Sobre el proyecto
 
-```bash
-yarn
-```
+RootNode es mi página personal, pensada como:
 
-## Local Development
+- Centro de contenido técnico
+- Espacio de experimentación
+- Nodo principal hacia otros proyectos
+- Plataforma de publicación estructurada
 
-```bash
-yarn start
-```
+## 📂 Contenido Destacado
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- **🐧 Linux:** Guías de personalización (XFCE, Cinnamon) y administración de sistemas.
+- **🪟 Windows:** Tips de productividad y configuración de **WSL** para entornos híbridos.
+- **🛠️ Herramientas:** Domando Neovim, Obsidian, terminales y más.
+- **🎮️ Emulación:** Uso de OPL para PS2 y más.
 
-## Build
+La página está pensada para evolucionar constantemente.
 
-```bash
-yarn build
-```
+## 🏗️ Arquitectura del Proyecto
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- **Core:** [Docusaurus 3](https://docusaurus.io/) para una navegación ultra rápida.
+- **Comentarios:** Integración nativa con **Giscus**, convirtiendo mis *GitHub Discussions* en un foro dinámico.
+- **Estilo:** Markdown extendido con componentes de React para guías interactivas.
 
-## Deployment
+## 📌 Estado del proyecto
 
-Using SSH:
+En desarrollo continuo.  
+La estructura y el contenido pueden evolucionar con el tiempo.
 
-```bash
-USE_SSH=true yarn deploy
-```
+## 📚 Apuntes técnicos
 
-Not using SSH:
+Aunque este repositorio no incluye contenido sobre git, Python, ni desarrollo fullstack con Python, estoy desarrollando ese material en un repositorio separado en apuntes creados con Obsidian. Es un contenido totalmente diferente desde su concepción, aunque tiene como similitud a esta página la intnción de mostrar mi camino de aprendizaje, así como de ayudar a quien lea esto con la intención de aprender.
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+👉 [**Repositorio de apuntes**](https://github.com/MrNetsky/Apuntes)
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Allí estaré documentando en profundidad:
+
+- Git (flujo de trabajo, buenas prácticas, conceptos avanzados)
+- Python (fundamentos y uso profesional)
+- Diseño y desarrollo web fullstack con Python
+- Notas técnicas estructuradas y conectadas

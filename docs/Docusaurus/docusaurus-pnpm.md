@@ -1,7 +1,7 @@
 ---
 id: docusaurus-pnpm
 title: Instalar Docusaurus
-sidebar_label: Instalar Docusaurus
+sidebar_label: Instalación
 sidebar_position: 1
 description: Guía de instalación de Docusaurus
 tags:
