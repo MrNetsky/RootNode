@@ -8,8 +8,24 @@ tags:
   - linux
   - lazyvim
   - wsl
+  - windows
 keywords: [neovim, lazyvim, linux mint]
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import useBaseUrl from '@docusaurus/useBaseUrl'; 
+
+<Tabs>
+  <TabItem 
+    value="linux" 
+    label={
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <img src={useBaseUrl('/img/linux-brands-solid-full.svg')} width="20" height="20" /> 
+        <span>Linux</span>
+      </div>
+    } 
+  >
 El proceso consta de dos pasos pasos:
 
 ## Descarga
@@ -73,3 +89,51 @@ font-style-bold-italic = "Bold Italic"
 
 font-size = 13
 ```
+  </TabItem>
+
+  <TabItem 
+    value="windows" 
+    label={
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <img src={useBaseUrl('/img/windows-brands-solid-full.svg')} width="20" height="20" /> 
+        <span>Windows</span>
+      </div>
+    }
+    default
+  >
+
+## Descarga
+
+El proceso es sencillo. Primero deberemos acceder a la siguiente [página](https://www.nerdfonts.com/font-downloads), una vez aquí, elegimos la fuente a descargar, incluso para varias de ellas, podemos ver cómo se ven. Luego de haberlas descargado, entramos al .zip e instalamos las que deseemos. Para ello haz doble click en los estilos que desee y le das a instalar. Segeriría que instales minimamente Regular, Bold, BoldItalic e Italic. 
+
+## Configuración
+
+:::danger IMPORTANTE
+Cada editor tendrá su forma para configurar estas fuentes. Aquí sólo se verá la forma de configurarlo en wezterm, cuya instlación podrá ver más adelante, por lo que deberá primero instalar y luego volver a esta sección.
+
+En caso de que usted use otra terminal, deberá buscar cómo hacer esta configuración.
+:::
+
+Una vez finalizado el proceso anterior, oprimimos 'win' + 'r' y escribimos %USERPROFILE%. En esta carpeta, debemos entrar al archivo .wezterm.lua y si no existe, pues lo creamos para luego escribir lo siguiente.
+
+```lua
+local wezterm = require 'wezterm'
+local config = wezterm.config_builder()
+
+-- Configuración de la fuente
+config.font = wezterm.font 'JetBrainsMono NF'
+
+-- Tamaño de la fuente (ajústalo a tu gusto)
+config.font_size = 11.0
+
+return config
+```
+:::info
+En este archivo de confifuraciones también puede cambiar el tema, entre otras modificaciones que puedes hacer a esta terminal.
+:::
+
+Cierras y luego vuelves a abrir la terminal, el cambio de fuente debería haberse aplicado con éxito.
+
+  </TabItem>
+</Tabs>
+

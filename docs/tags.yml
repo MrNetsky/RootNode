@@ -9,6 +9,11 @@ wsl:
   description: "Integración de entornos Linux dentro de Windows para desarrollo híbrido."
   permalink: /wsl-setup
 
+windows:
+  label: "Windows"
+  description: "Artículos relacionados con el sistema operativo de Microsoft, WSL y herramientas compatibles."
+  permalink: /windows
+
 lazyvim:
   label: "LazyVim & Neovim"
   description: "Flujos de trabajo eficientes en la terminal utilizando arquitecturas modernas de Vim."

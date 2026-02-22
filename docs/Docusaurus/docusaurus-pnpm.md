@@ -72,6 +72,17 @@ Yo lo crearé en una carpeta en particular, por lo que me dirigiré a ella y esc
 ```bash
 pnpm create docusaurus@latest . classic
 ```
+## Puesta a punto para un repositorio clonado
 
+Si lo que ya tines es un repositorio en la nube y pretendes clonarlo a tu equipo, el 'pnpm start' NO funcionará, porque el package.json estará disponible, pero no así sus dependencias, por lo que en la carpeta de proyecto, deberás escribir lo siguiente.
+
+```bash
+pnpm install
+```
+Luego de ello ya podrás ejecutar 
+
+```bash
+pnpm start
+```
   </TabItem>
 </Tabs>

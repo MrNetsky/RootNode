@@ -5,15 +5,30 @@ sidebar_label: "NeoVim"
 sidebar_position: 2
 description: Guía para instalar versiones recientes de NeoVim en Linux Mint.
 tags:
+  - windows
   - linux
   - lazyvim
 keywords: [instalar neovim]
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
 :::tip NOTA 
 Para la instalación de lazyvim es importante tener una versión a 0.11.2 o posterior. 
 :::
 
+<Tabs>
+  <TabItem 
+    value="linux" 
+    label={
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <img src={useBaseUrl('/img/linux-brands-solid-full.svg')} width="20" height="20" /> 
+        <span>Linux</span>
+      </div>
+    } 
+  >
+ 
 ```bash
 sudo apt install neovim
 ```
@@ -36,3 +51,29 @@ Lo que hace la segunda línea de código es ejecutar los cambios inmediatamente.
 ```bash
 source ~/.bashrc
 ```
+  </TabItem>
+
+  <TabItem 
+    value="windows" 
+    label={
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <img src={useBaseUrl('/img/windows-brands-solid-full.svg')} width="20" height="20" /> 
+        <span>Windows</span>
+      </div>
+    }
+    default
+  >
+Para instarlo, el proceso es muy sencillo. Solamente debes escribir lo siguiente en la terminal.
+
+```powershell
+winget install nvim
+```
+
+Una vez terminado, cierra y vuelve a abrir la terminal. Este proceso te instala la última versión disponible, la cual en mi caso fue la 0.11.6. Además de manera similar que en Linux, puedes controlar la versión de la siguiente manera.
+
+```bash
+nvim --version
+```
+
+  </TabItem>
+</Tabs>

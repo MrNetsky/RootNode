@@ -8,8 +8,24 @@ tags:
   - linux
   - lazyvim
   - wsl
+  - windows
 keywords: [neovim, lazyvim, linux mint]
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import useBaseUrl from '@docusaurus/useBaseUrl'; 
+
+<Tabs>
+  <TabItem 
+    value="linux" 
+    label={
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <img src={useBaseUrl('/img/linux-brands-solid-full.svg')} width="20" height="20" /> 
+        <span>Linux</span>
+      </div>
+    } 
+  >
 
 :::danger IMPORTANTE
 Si no descargas alguna de estas dos terminales, deberás elegir otra, ya que soportan todos los colores e íconos de lazyvim y las nerdfonts. Se sugieren estas: alacritty, kitty(Linux y MacOS), wezterm, iterm2(MacOS) y ghostty(Linux y MacOS).
@@ -41,3 +57,30 @@ ghostty --version
 ```
 
 En caso de que tengas una distro diferente de Debian o sus derivados, en su [<u>página</u>](https://ghostty.org/docs/install/binary#linux-(official)) podrás ver cómo descargarla.
+
+  </TabItem>
+
+  <TabItem 
+    value="windows" 
+    label={
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <img src={useBaseUrl('/img/windows-brands-solid-full.svg')} width="20" height="20" /> 
+        <span>Windows</span>
+      </div>
+    }
+    default
+  >
+
+## Instalación de Wezterm
+
+:::danger IMPORTANTE
+Si no descargas esta terminal, deberás elegir otra, ya que soportan todos los colores e íconos de lazyvim y las nerdfonts. Se sugieren estas: alacritty, kitty(Linux y MacOS), wezterm, iterm2(MacOS) y ghostty(Linux y MacOS).
+:::
+
+Descargaremos el ejecutable desde esta [página](https://wezterm.org/install/windows.html). Lo buscamos en la carpeta que lo hayamos descargado y lo iniciamos. Le damos a siguiente hasta que finalice la instalación.
+
+Poco uso le dí pero lo poco que lo usé, no me gustó mucho, razón por la cual, le cambié la fuente a powershell, lo usé. Para mi sorpresa, anda bárbaro. Por ello dejé de usar Wezterm.
+
+  </TabItem>
+</Tabs>
+

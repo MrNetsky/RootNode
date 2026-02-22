@@ -1,6 +1,7 @@
 ---
 slug: xfce
 title: Mi frustración con Linux Mint Xfce
+sidebar_label: Frustraciones
 authors: [MrNetsky]
 tags: [linux]
 ---
