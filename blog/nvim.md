@@ -1,6 +1,6 @@
 ---
 slug: nvim
-title: LazyVim: Diferencias entre Windows y Linux
+title: 'LazyVim: Diferencias entre Windows y Linux'
 sidebar_label: LazyVim
 authors: [MrNetsky]
 tags: 
