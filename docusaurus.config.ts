@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'RootNode',
-  tagline: 'Explorando la tecnología: del modding retro al código moderno.',
+  tagline: 'Un espacio para explorar la evolución tecnológica: desde el flujo de trabajo en la terminal hasta el modding de hardware retro.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
