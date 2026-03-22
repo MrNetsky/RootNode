@@ -40,3 +40,11 @@ Este apartado **NO** sigue un órden lógico, al menos no de momento. Ya que voy
 
 **Cerrar un buffer (archivo abierto)**
 > space + 'b' + 'd' ó : + 'b' + 'd'
+
+**Reemplazar una palabra por otra**
+> %s/TEXTO_ORIGINAL/TEXTO_DE_REEMPLAZO/g
+
+**Expander/contraer la barra lateral izq**
+ctrl + -> contrae
+ctrl + <- expande
+entiendase que son las flechas direccionales
