@@ -37,9 +37,10 @@ Descargar las fuentes parcheadas.
 
 Una vez hecho eso, es necesario mover los archivos para poder utlizarlos, para ello primero debo ubicar dónde estan mis archivos, para luego reubicarlos.
 
-```bash
+```bash title="bash"
 mv  ~/Descargas/HackNerdFont-Bold.ttf ~/.local/share/fonts/ttf/
 ```
+
 El proceso lo repetiremos tantas veces como NerdFont tengamos. Es importante resaltar que la carpeta fonts no existía en mi sistema por ende la tuve crear, mucho menos la carpeta ttf, la cual también cree. Use el procedimiento, pero las carpetas y sus ubicaciones pueden variar de sistema a sistema, por lo que debe tener cuidado.
 
 ## Configuración
@@ -54,12 +55,12 @@ En caso de que usted use otra terminal, deberá buscar cómo hacer esta configur
 
 Será necesario ir al archivo de configuraciones y editarlo. Yo lo hice en NeoVim, pero puedes hacerlo también en Nano
 
-```bash
+```bash title="bash"
 nvim ~/.config/alacritty/alacritty.toml
 ```
 No olvide que la fuente aquí mencionada es la que yo elegí, pero hay otras opciones y si usted ha optado por otra, deberá modificar y usar la suya. Una vez aquí, escribiremos lo siguiente:
 
-```bash
+```bash title="TOML"
 [font]
 
 size = 11.0
@@ -79,8 +80,15 @@ family = 'Hack Nerd Font'
 
 ### ghostty
 
-Aquí la sintaxis es un poco diferente, pero en escencia es lo mismo. Por cierto, el tamaño de la letra no es necesario. Yo lo especifiqué así porque es de mi preferencia.
-```bash
+Aquí la sintaxis es un poco diferente, pero en escencia es lo mismo. Abrimos o creamos el archivo de configuraciones de la siguiente manera:
+
+```bash title="bash"
+nvim ~/.config/ghostty/config
+```
+
+Y luego escribimos lo siguiente pero antes quiero aclarar que el tamaño de la letra no es necesario. Yo lo especifiqué así porque es de mi preferencia.
+
+```bash title="bash"
 font-family = "Hack Nerd Font"
 font-style = "Regular"
 font-style-bold = "Bold"
@@ -116,7 +124,7 @@ En caso de que usted use otra terminal, deberá buscar cómo hacer esta configur
 
 Una vez finalizado el proceso anterior, oprimimos 'win' + 'r' y escribimos %USERPROFILE%. En esta carpeta, debemos entrar al archivo .wezterm.lua y si no existe, pues lo creamos para luego escribir lo siguiente.
 
-```lua
+```lua title="Lua"
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 

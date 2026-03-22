@@ -30,15 +30,21 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 :::tip nota
 Esta instalación suele ser innecesaria, ya que para la mayoría de sistemas Linux, viene instalado. Pero sino, el proceso es el siguiente
 :::
+
 Escribimos en la terminal:
-```bash
+
+```bash title="bash"
 sudo apt install git
 ```
+
 Consulta la versión para verificar que se haya instalado correctamente.
-```bash
+
+```bash title="bash"
 git --version
 ```
+
 La versión que instale va a ser superior a la necesaria, asi que no hay que hacer nada más.
+
   </TabItem>
 
   <TabItem 
@@ -55,12 +61,12 @@ Acá tenemos dos opciones. La primera es descargar el ejecutable desde la siguie
 
 La otra es instalar desde la terminal.
 
-```powershell
+```powershell title="PowerShell"
 winget install --id Git.Git -e --source winget
 ```
 Para cualquiera de los casos, podemos verificar la versión escribiendo lo siguiente.
 
-```bash
+```bash title="PowerShell"
 git --version
 ```
 

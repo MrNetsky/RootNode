@@ -20,31 +20,14 @@ Este documento se encontrará en constante actualización.
 Este apartado **NO** sigue un órden lógico, al menos no de momento. Ya que voy anotando lo que me parece útil y a medida que lo voy aprendiendo, pero si en un futuro esto cambia, verá esta etiqueta modificada o directamente no la verá. 
 :::
 
-**Insert + salto de linea**
-> 'o'
-
-**Explorador**
-> space + e
-
-**Srcoll entre el explorador y el buffer activo**
-> ctrl + 'h' ó 'l'
-
-**Scroll entre buffers**
-> shift + 'h' ó 'l' IMPORTANTE: Este scroll no incluye al explorador y no tiene tope, ya que si tienes dos documentos abiertos y haces dos veces shift + 'l' volverás al mismo del que partíste.
-
-**Cerrar el explorador**
-> esc ó ':' + 'q' IMPORTANTE: tener activo el explorador, de lo contrario cerrará lo que encuentre activo.
-
-**Crea un archivo o carpeta nueva**
-> space + 'e' + 'a'. IMPORTANTE: Para la carpeta, deberás poner al final del nombre '/' y para un archivo, su extensión.
-
-**Cerrar un buffer (archivo abierto)**
-> space + 'b' + 'd' ó : + 'b' + 'd'
-
-**Reemplazar una palabra por otra**
-> %s/TEXTO_ORIGINAL/TEXTO_DE_REEMPLAZO/g
-
-**Expander/contraer la barra lateral izq**
-ctrl + -> contrae
-ctrl + <- expande
-entiendase que son las flechas direccionales
+| <div align="center">Atajo / Comando</div> | <div align="center">Acción</div> |
+| :--- | :--- |
+| <kbd>o</kbd> | **Insertar:** Salto de línea hacia abajo y entrar en modo edición |
+| <kbd>Space</kbd>&nbsp;+&nbsp;<kbd>e</kbd> | **Explorador:** Abrir/Enfocar la barra lateral (Neo-tree) |
+| <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>h</kbd> ó <kbd>l</kbd> | **Navegar:** Saltar entre el explorador y el código (buffer activo) |
+| <kbd>Shift</kbd>&nbsp;+&nbsp;<kbd>h</kbd> ó <kbd>l</kbd> | **Buffers:** Cambiar de archivo abierto (cíclico, no incluye explorador) |
+| <kbd>Esc</kbd> ó <kbd>:</kbd>&nbsp;+&nbsp;<kbd>q</kbd> | **Cerrar:** Salir del explorador (debe estar enfocado) |
+| <kbd>Space</kbd>&nbsp;+&nbsp;<kbd>e</kbd>&nbsp;+&nbsp;<kbd>a</kbd> | **Nuevo:** Crear archivo o carpeta (usar `/` al final para carpetas) |
+| <kbd>Space</kbd>&nbsp;+&nbsp;<kbd>b</kbd>&nbsp;+&nbsp;<kbd>d</kbd> | **Cerrar Buffer:** Cerrar el archivo actual |
+| <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>→</kbd> / <kbd>←</kbd> | **Redimensionar:** Contraer o expandir el ancho de la barra lateral |
+| <kbd>:</kbd>`%s/viejo/nuevo/g` | **Reemplazar:** Cambiar una palabra por otra en todo el documento |

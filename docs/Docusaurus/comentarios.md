@@ -30,7 +30,7 @@ Es un sistema de comentarios gratuito y de código abierto que funciona como una
 
 Primero deberemos habilitar la herramienta, para ello en nuestro repositorio, escribimos lo siguiente:
 
-```bash
+```bash title="bash"
 pnpm add @giscus/react
 ```
 
@@ -42,7 +42,7 @@ Es necesario que también elijas la categoría, esto nos aportará otro ID impre
 
 Será necesario que creen un archivo index.js en src/components/GiscusComponent que contenga el siguiente código, eso sí, deberás reemplazar con tu información los apartados que se encuentran encerrados con corchetes.
 
-```javascript
+```javascript title="JavaScript"
 import React from 'react';
 import Giscus from '@giscus/react';
 import { useColorMode } from '@docusaurus/theme-common';
@@ -73,7 +73,7 @@ Un error que a mi me dió luego de esto se debió a que pnpm es muy estricto con
 
 Por lo que, dentro de la carpeta de mi proyecto, hice lo siguiente:
 
-```bash
+```bash title="bash"
 pnpm add @docusaurus/theme-common
 ```
 
@@ -94,12 +94,12 @@ Llegado a este punto, solo queda agregar la posibilidad de agregar los comentari
     default
   >
 Si te interesa que los comentarios estén disponibles para algunos artículos, lo que debes hacer es pegar la siguiente línea al inicio del documento (Se puede pegar en cualquier parte, pero yo a los imports los dejo siempre, debajo de los metadatos).
-```Markdown
+```Markdown title="Markdown"
 import Comment from '@site/src/components/GiscusComponent';
 ```
 Luego, al final del documento lo siguiente.
 
-```Markdown
+```Markdown title="Markdown"
 <Comment />
 ```
 
@@ -115,7 +115,7 @@ Luego, al final del documento lo siguiente.
   >
 Deberás crear un archivo index.js en src/theme/DocItem/Footer que contenga lo siguiente:
 
-```javascript
+```javascript title="JavaScript"
 import React from 'react';
 import Footer from '@theme-original/DocItem/Footer';
 import Comment from '@site/src/components/GiscusComponent';

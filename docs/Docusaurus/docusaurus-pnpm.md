@@ -43,25 +43,25 @@ Primero abrá que instalar pnpm. Puede que ya lo tengas instalado, por lo que te
 
 Supuestamente este paso no deberías hacerlo, pero mi equipo no reconocía a corepack, por ello hice lo siguiente:
 
-```bash
+```bash title="bash"
 sudo npm install -g corepack
 ```
 
 Ya teniendo corepack, lo que hay que hacer es habilitarlo
 
-```bash
+```bash title="bash"
 sudo corepack enable
 ```
 
 Ahora lo que hay que hacer es instalar la última version de pnpm.
 
-```bash
+```bash title="bash"
 corepack prepare pnpm@latest --activate
 ```
 
 Para verificar que lo hemos hecho bien, verificamos la versión.
 
-```bash
+```bash title="bash"
 pnpm --version
 ```
 
@@ -69,19 +69,19 @@ pnpm --version
 
 Yo lo crearé en una carpeta en particular, por lo que me dirigiré a ella y escribiré lo siguiente:
 
-```bash
+```bash title="bash"
 pnpm create docusaurus@latest . classic
 ```
 ## Puesta a punto para un repositorio clonado
 
 Si lo que ya tines es un repositorio en la nube y pretendes clonarlo a tu equipo, el 'pnpm start' NO funcionará, porque el package.json estará disponible, pero no así sus dependencias, por lo que en la carpeta de proyecto, deberás escribir lo siguiente.
 
-```bash
+```bash title="bash"
 pnpm install
 ```
 Luego de ello ya podrás ejecutar 
 
-```bash
+```bash title="bash"
 pnpm start
 ```
   </TabItem>

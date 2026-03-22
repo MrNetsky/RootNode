@@ -18,11 +18,11 @@ Luego de finalizado el proceso, quise abrir los proyectos alojados dentro de WSL
 
 Entonces intento ejecutar un proyecto que tenía en una carpeta de Windows, para mi sorpresa, funciona espectacular. Intento hacer lo mismo, pero desde WSL y con unas leves modificaciones al comando, y también funciona. A continuación pueden ver las diferencias en lo comandos.
 
-```bash
+```bash title="bash"
 nvim.exe "[RUTA]"
 ```
 
-```powershell
+```powershell title="PowerShell"
 nvim "[RUTA]"
 ```
 
@@ -30,7 +30,7 @@ Lo que me lleva a pensar que hay problemas con las rutas de las carpetas que le 
 
 El proceso fue sencillo, como 'sudo apt install neovim' me da la versión 0.9.5, escribí lo siguiente:
 
-```bash
+```bash title="bash"
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
 sudo rm -rf /opt/nvim-linux-x86_64
 sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz

@@ -32,14 +32,14 @@ El proceso que voy a llevar a cabo, es para guardar una partida dentro de la mem
 **Parte 2: PS2**
 
 1. Acceder al uLaunchELF:
-    - Antes de encender la consola, aprieta R1.
-    - Enciendela, mientras mantienes presionado R1 hasta que se abra el uLaunchELF.
+    - Antes de encender la consola, aprieta <kbd>R1</kbd>.
+    - Enciendela, mientras mantienes presionado <kbd>R1</kbd> hasta que se abra el uLaunchELF.
     - No es la única forma de acceder a este menú, pero es el que yo usé.
 2. Oprime círculo para acceder al browser.
-3. Desplázate hasta MASS (acceso a los datos del pendrive) y oprime equis.
-4. Busca la carpeta y oprime R1 para poder copiarla.
-5. Vuelve hacia atras con triángulo y desplázate a MC0 (acceso a los datos de la Memory Card), selecionalo con equis.
-6. Una vez aquí, oprimes R1 nuevamente para poder pegar.
+3. Desplázate hasta MASS (acceso a los datos del pendrive) y oprime <kbd>X</kbd>.
+4. Busca la carpeta y oprime <kbd>R1</kbd> para poder copiarla.
+5. Vuelve hacia atras con <kbd>△</kbd> y desplázate a MC0 (acceso a los datos de la Memory Card), selecionalo con <kbd>X</kbd>.
+6. Una vez aquí, oprimes <kbd>R1</kbd> nuevamente para poder pegar.
 7. Habiendo finalizado el proceso, reinicia la consola.
 
 Podrás verificar, que el proceso ha sido completado con éxito, entrando a las partidas guardadas de la memory card y encontrar la partida que has cargado o entrando al juego en cuestión a verificar que haya una partida guardada.

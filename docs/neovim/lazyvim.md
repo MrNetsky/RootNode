@@ -27,7 +27,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   >
 Hacer una copia de seguridad de mis archivos actuales de NeoVim. Vease que los 3 que están separados, NO son obligatorios, pero si recomendables en caso de que ya hayas usado NeoVim con anterioridad y quieras guardar tus configuraciones antíguas. Si unicamente has instalado NeoVim para usar LazyVim, no es necesario que hagas esto, dado que, no hay nada que guardar.
 
-```bash
+```bash title="bash"
 mv ~/.config/nvim{,.bak}
 
 mv ~/.local/share/nvim{,.bak}
@@ -37,21 +37,22 @@ mv ~/.cache/nvim{,.bak}
 
 Clonar el motor de arranque:
 
-```bash
+```bash title="bash"
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 ```
 
 Elimina la carpeta .git para que puedas agregarla a tu propio repositorio más tarde.
 
-```bash
+```bash title="bash"
 rm -rf ~/.config/nvim/.git
 ```
 
 ¡Empieza Neovim!
 
-```bash
+```bash title="bash"
 nvim
 ```
+
   </TabItem>
 
   <TabItem 
@@ -68,24 +69,24 @@ Se sugiere hacer en primera instancia una copia de seguridad de tus archivos de 
 
 Lo que haremos ahora es movernos a la carpeta User/TU_USUARIO/AppData/Local/nvim. Pero yo no tenía la carpeta, así que lo cloné creando la misma, de la siguiente manera.
 
-```powershell
+```powershell title="PowerShell"
 git clone https://github.com/LazyVim/starter nvim
 ```
 Necesariamente debemos borrar la carpeta .git, para ello, debemos movernos a la carpeta de nvim y lo haremos de la siguiente manera.
 
-```powershell
+```powershell title="PoweShell"
 cd $env:LOCALAPPDATA\nvim
 ```
 
 Una vez aquí lo que haremos es borrar la carpete como podrás ver a continuación.
 
-```powershell
+```powershell title="PowerShell"
 Remove-Item -Recurse -Force .git
 ```
 
 Podrás ver ejecutando el siguiente comando que la carpeta .git ya no está.
 
-```powershell
+```powershell title="PowerShell"
 Remove-Item -Recurse -Force .git
 ```
 

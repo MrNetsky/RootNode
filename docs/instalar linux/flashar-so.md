@@ -30,11 +30,14 @@ Para poder usar esta herramienta, primero hay que descargarla, desde esta [<u>p�
     } 
   >
     Descargaremos el archivo cuya extensión sea .tar.gz y en la terminal, primero nos desplazaremos hasta la ubicación de dicho archivo descargado. Una vez aquí escribimos:
-    ```bash
+    
+    ```bash title="bash"
     tar xzvf ventoy-1.1.10-linux.tar.gz
     ```
+
     Una vez descomprimida la carpeta, ejecutaremos el programa mediante esta línea de código, ten en cuenta que deberás poner la contraseña.
-    ```bash
+
+    ```bash title="bash"
     sudo ./VentoyGUI.x86_64
     ```
 

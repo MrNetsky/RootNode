@@ -24,11 +24,15 @@ Este procedimiento fue realizado en distros basadas en Ubuntu que a su vez, est�
 :::
 
 Antes de empezar con todo esto, utilizar:
-```bash
+
+```bash title="bash"
 sudo apt update
 ```
+
 Y luego:
-```bash
+
+```bash title="bash"
 sudo apt upgrade
 ```
+
 Esto es porque update actualiza la información sobre qué software existe y dónde encontrarlo. Mientras que upgrade previene conflictos de dependencias, mantiene la seguridad y garantiza la estabilidad.
