@@ -70,6 +70,13 @@ const config: Config = {
     ],
   ],
 
+  scripts: [
+      {
+        src: 'https://kit.fontawesome.com/883a12fdd2.js', // Reemplaza con tu Kit ID o un CDN
+        crossorigin: 'anonymous',
+      },
+    ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -101,11 +108,28 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Contenido',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              html: `
+                <a href="/RootNode/docs/category/neovim" class="footer__link-item">
+                  <i class="fas fa-keyboard"></i> Guía LazyVim
+                </a>
+              `,
+            },
+            {
+              html: `
+                <a href="/RootNode/docs/category/ps2" class="footer__link-item">
+                  <i class="fas fa-gamepad"></i> OPL en PS2
+                </a>
+              `,
+            },
+            {
+              html: `
+                <a href="/RootNode/blog/tmux" class="footer__link-item">
+                  <i class="fas fa-terminal"></i> Blog: tmux
+                </a>
+              `,
             },
           ],
         },
@@ -113,29 +137,44 @@ const config: Config = {
           title: 'Social',
           items: [
             {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/pablo-ac97/',
+              html: `
+                <a href="https://www.linkedin.com/in/pablo-ac97/" target="_blank" rel="noopener noreferrer" class="footer__link-item">
+                  <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+              `,
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              html: `
+                <a href="mailto:pablo.leandro.ac@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">
+                  <i class="fas fa-envelope"></i> Mail
+                </a>
+              `,
             },
             {
-              label: 'X',
-              href: 'https://x.com/PablitooAC97',
+              html: `
+                <a href="https://x.com/PablitooAC97" target="_blank" rel="noopener noreferrer" class="footer__link-item">
+                  <i class="fab fa-x-twitter"></i> X
+                </a>
+              `,
             },
           ],
         },
         {
-          title: 'More',
+          title: 'GitHub',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              html: `
+                <a href="https://github.com/MrNetsky/Apuntes" target="_blank" rel="noopener noreferrer" class="footer__link-item">
+                  <i class="fab fa-github"></i> ¡Mis apuntes!
+                </a>
+              `,
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/MrNetsky/RootNode',
+              html: `
+                <a href="https://github.com/MrNetsky/RootNode/issues" target="_blank" rel="noopener noreferrer" class="footer__link-item">
+                  <i class="fas fa-lightbulb"></i> Sugerencias o errores
+                </a>
+              `,
             },
           ],
         },

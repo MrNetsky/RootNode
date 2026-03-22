@@ -28,3 +28,27 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Centrando los títulos e ítems del footer */
+
+/* Centra el grupo de columnas del footer */
+.footer__links {
+  max-width: 1200px; /* Ajusta este ancho según te guste más */
+  margin: 0 auto;
+  justify-content: center; /* Centra las columnas entre sí */
+  display: flex;
+  width: 100%;
+}
+
+/* Opcional: Centra el texto de los títulos y los links internamente */
+.footer__col {
+  text-align: center;
+  padding: 0 2rem; /* Espaciado entre columnas */
+}
+
+/* Alinea los iconos y texto a la izquierda dentro de la columna centrada 
+   (para que no se vea desordenado si los links tienen largos distintos) */
+.footer__items {
+  text-align: left;
+  display: inline-block;
+}
