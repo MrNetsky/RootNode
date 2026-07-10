@@ -31,3 +31,5 @@ Este apartado **NO** sigue un órden lógico, al menos no de momento. Ya que voy
 | <kbd>Space</kbd>&nbsp;+&nbsp;<kbd>b</kbd>&nbsp;+&nbsp;<kbd>d</kbd> | **Cerrar Buffer:** Cerrar el archivo actual |
 | <kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>→</kbd> / <kbd>←</kbd> | **Redimensionar:** Contraer o expandir el ancho de la barra lateral |
 | <kbd>:</kbd>`%s/viejo/nuevo/g` | **Reemplazar:** Cambiar una palabra por otra en todo el documento |
+| <kbd>u</kbd>&nbsp | **Deshacer:** La terminal debe de estar en |
+| <kbd>ctrl</kbd>&nbsp;+&nbsp;<kbd>r</kbd>&nbsp; | **Rehacer:** Cerrar el archivo actual |
