@@ -1,7 +1,7 @@
 ---
 slug: wifi-hp530
 title: 'Solucionar problemas de WiFi en una HP530 con Linux Mint Mate'
-sidebar_label: Huellas en Linux
+sidebar_label: Problemas de WiFi
 authors: [MrNetsky]
 tags: 
     - linux
