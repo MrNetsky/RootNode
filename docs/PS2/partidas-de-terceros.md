@@ -35,7 +35,7 @@ El proceso que voy a llevar a cabo, es para guardar una partida dentro de la mem
     - Antes de encender la consola, aprieta <kbd>R1</kbd>.
     - Enciendela, mientras mantienes presionado <kbd>R1</kbd> hasta que se abra el uLaunchELF.
     - No es la única forma de acceder a este menú, pero es el que yo usé.
-2. Oprime círculo para acceder al browser.
+2. Oprime <kbd>O</kbd> para acceder al browser.
 3. Desplázate hasta MASS (acceso a los datos del pendrive) y oprime <kbd>X</kbd>.
 4. Busca la carpeta y oprime <kbd>R1</kbd> para poder copiarla.
 5. Vuelve hacia atras con <kbd>△</kbd> y desplázate a MC0 (acceso a los datos de la Memory Card), selecionalo con <kbd>X</kbd>.
