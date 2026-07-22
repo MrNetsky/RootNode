@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
 :::tip NOTA 
-Para la instalación de lazyvim es importante tener una versión a 0.11.2 o posterior. 
+Para instalar LazyVim es importante contar con NeoVim 0.11.2 o una versión posterior.
 :::
 
 <Tabs>
@@ -29,33 +29,86 @@ Para la instalación de lazyvim es importante tener una versión a 0.11.2 o post
     } 
   >
  
-```bash title="bash"
-sudo apt install neovim
-```
+    ```bash title="bash"
+    sudo apt install neovim
+    ```
 
-Es probable que instale un versión más antigua, pero estable, en mi caso fue la 0.9.5, entonces lo que hice fue elegir la versión, luego descargar el archivo .appimage o .tar.gz de la siguiente <u>[**página**](https://github.com/neovim/neovim/releases)</u>. Yo en este caso elegí la versión 0.11.5 y descargaré el archivo nvim-linux-x86_64.tar.gz. Con esto listo, hacemos lo siguiente:
+    Es probable que el gestor de paquetes instale una versión más antigua, aunque estable. En mi caso fue la versión 0.9.5. Por ello decidí descargar una versión más reciente desde la <u>[**página de lanzamientos de NeoVim**](https://github.com/neovim/neovim/releases)</u>, ya sea en formato `.appimage` o `.tar.gz`.
 
-```bash title="bash"
-tar xzvf nvim-linux-x86_64.tar.gz
-```
+    <Tabs>
+      <TabItem 
+        value="tarball" 
+        label={
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <span>Instalación desde el archivo Tarball</span>
+          </div>
+        } 
+      >
+        
+      En mi caso elegí la versión 0.11.5 y descargué el archivo `nvim-linux-x86_64.tar.gz`. Una vez descargado, hacemos lo siguiente:
 
-Una vez extraidos los datos del archivo, ya quedó listo, el siguiente código **NO** es una instalación, lo que escribiremos es una ruta de acceso:
+      ```bash title="bash"
+      tar xzvf nvim-linux-x86_64.tar.gz
+      ```
 
-```bash title="bash"
-./nvim-linux-x86_64/bin/nvim
-```
+      Una vez extraído el contenido del archivo, NeoVim ya está listo para utilizarse. El siguiente comando no realiza ninguna instalación; simplemente ejecuta el binario desde la carpeta recién extraída.
 
-Aquí ya quedó funcionando, pero escribir el código anterior cada vez que querramos usar NeoVim es impráctico, por lo que procederemos a 'renombrarlo'. Lo que hace esta primera linea de código, es que cada vez que se escriba 'nvim' ejecute './nvim-linux-x86_64/bin/nvim', haciendo más cómodo el uso de NeoVim.
+      ```bash title="bash"
+      ./nvim-linux-x86_64/bin/nvim
+      ```
 
-```bash title="bash"
-echo "alias nvim='~/Descargas/nvim-linux-x86_64/bin/nvim'" >> ~/.bashrc
-```
+      Aquí ya quedó funcionando, pero escribir el código anterior cada vez que querramos usar NeoVim es impráctico, por lo que procederemos a 'renombrarlo'. 
 
-Lo que hace la segunda línea de código es ejecutar los cambios inmediatamente. Esto lo hacemos para no tener que cerrar y abrir nuevamente la terminal para que se apliquen los cambios.
+      ```bash title="bash"
+      # Cada vez que se escriba 'nvim' ejecute './nvim-linux-x86_64/bin/nvim', haciendo más cómodo el uso de NeoVim.
+      echo "alias nvim='~/Descargas/nvim-linux-x86_64/bin/nvim'" >> ~/.bashrc
+      #Recargar para actualizar.
+      source ~/.bashrc
+      nvim --version 
+      ```
 
-```bash title="bash"
-source ~/.bashrc
-```
+      Si llegaste hasta aquí y devuelve una versión igual que has descargado, ya tienes todo lo necesario para continuar con la instalación de LazyVim.
+      
+      </TabItem>
+
+      <TabItem 
+        value="appimage" 
+        label={
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <span>Instalación vía AppImage</span>
+          </div>
+        }
+        default
+      >
+
+      Desde el repositorio oficial de NeoVim en GitHub descarga el archivo `nvim-linux-x86_64.appimage`. En mi caso descargué la versión 0.12.4. Una vez finalizada la descarga, muévete a la carpeta Descargas (o a la ubicación donde hayas guardado el archivo) y ejecuta lo siguiente:
+
+      ```bash title="Bash"
+      chmod u+x nvim-linux-x86_64.appimage && ./nvim-linux-x86_64.appimage
+      #Luego de esto se debería ejecutar NeoVim
+      ```
+      Ahora NeoVim funciona, pero únicamente si ejecutas el archivo desde la carpeta donde lo descargaste. Lo ideal es que esté disponible desde cualquier ubicación del sistema. 
+
+      ```bash title="Bash"
+      mkdir -p ~/.local/bin #Crea este directorio.
+      mv /ruta/a/tu/archivo/nvim-linux-x86_64.appimage ~/.local/bin/nvim #Mueve el archivo desde donde esté a la carpeta que has creado.
+      chmod u+x ~/.local/bin/nvim #Otorga permisos de ejecución.
+      ```
+
+      Sin embargo, en Linux Mint MATE la carpeta `~/.local/bin` no venía incluida en mi variable `PATH`. Para solucionarlo edité mi archivo `.bashrc` y añadí la siguiente configuración:
+      
+      ```bash title="Bash"
+      nano ~/.bashrc #Con el editor nano, abre el archivo del PATH.
+      #Al final del acrhivo, pega lo siguiente:
+      export PATH="$HOME/.local/bin:$PATH" #Recordar guardar y salir.
+      source ~/.bashrc #Recargar.
+      nvim --version 
+      ```
+
+      Si llegaste hasta aquí y devuelve una versión igual que has descargado, ya tienes todo lo necesario para continuar con la instalación de LazyVim.
+
+      </TabItem>
+    </Tabs>
 
   </TabItem>
 
@@ -69,17 +122,19 @@ source ~/.bashrc
     }
     default
   >
-Para instarlo, el proceso es muy sencillo. Solamente debes escribir lo siguiente en la terminal.
+  Para instalarlo, el proceso es muy sencillo. Solo debes ejecutar el siguiente comando en la terminal:
 
-```powershell title="PowerShell"
-winget install nvim
-```
+  ```powershell title="PowerShell"
+  winget install nvim
+  ```
 
-Una vez terminado, cierra y vuelve a abrir la terminal. Este proceso te instala la última versión disponible, la cual en mi caso fue la 0.11.6. Además de manera similar que en Linux, puedes controlar la versión de la siguiente manera.
+  Una vez terminado, cierra y vuelve a abrir la terminal. Este proceso te instala la última versión disponible, la cual en mi caso fue la 0.11.6. Al igual que en Linux, puedes verificar la versión instalada mediante el siguiente comando:
 
-```bash title="PowerShell"
-nvim --version
-```
+  ```bash title="PowerShell"
+  nvim --version
+  ```
+
+  Si llegaste hasta aquí y devuelve una versión igual o superior a 0.11.2, ya tienes todo lo necesario para continuar con la instalación de LazyVim.
 
   </TabItem>
 </Tabs>
