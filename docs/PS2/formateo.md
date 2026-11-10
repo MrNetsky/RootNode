@@ -2,7 +2,7 @@
 id: formateo
 title: "Formateo de unidad USB para grabar juegos"
 sidebar_label: "Formateo"
-sidebar_position: 2
+sidebar_position: 3
 description: Proceso de formateo a traves de diferentes herramientas y SO.
 tags:
   - ps2-modding
