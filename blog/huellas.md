@@ -34,7 +34,7 @@ Una vez finalizado el proceso escribí lo siguiente:
 fprintd-enroll
 ```
 
-Aquí tuve que asentar un dedo unas cuantas veces mientras se guardaba el registro. Como ese comando no tiene parámetros, asume que la huella guardada es la del dedo índice derecho y sugiero que NO hagan la boludez que yo hice de usar el dedo pulgar. No porque pase algo malo, sino porque es exageradamente incómodo, al menos en este equipo.
+Aquí tuve que asentar un dedo unas cuantas veces mientras se guardaba el registro. Como ese comando no tiene parámetros, asume que la huella guardada es la del dedo índice derecho y sugiero que NO cometan el mismo error que cometí de usar el dedo pulgar. No porque pase algo malo, sino porque es exageradamente incómodo, al menos en este equipo.
 
 Mientras apoyaba el dedo en el sensor, vi encenderse una luz encima del lector y ya con eso fui feliz. Ni siquiera sabía si el lector o la luz que posee encima funcionaban, pero al menos ahora ya estaba más cerca de hacerlo andar.
 
